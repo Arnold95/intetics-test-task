@@ -1,0 +1,9 @@
+core = 7.x
+version = "7.x-1.0"
+
+package = Custom
+name = Service Station
+description = "An application to automate everyday work of an administrator at a service station."
+
+configure = admin/config/system/service_station
+files[] = service_station.base.inc
